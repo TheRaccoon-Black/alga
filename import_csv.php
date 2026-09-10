@@ -1,20 +1,33 @@
 <?php // import_csv.php
 include 'config/db.php';
 
-$berhasil = 0; $dilewati = 0; $penyakitBaru = []; $error = '';
+ $berhasil = 0; $dilewati = 0; $duplikat = 0; $penyakitBaru = []; $error = ''; $pesan = '';
+
+// ====== PETA NORMALISASI EJAAN (anti-duplikat penyakit karena beda ejaan) ======
+ $petaNama = [
+    'liken simplek kronik'  => 'Liken Simplek Kronik',
+    'liken simpleks kronik' => 'Liken Simplek Kronik',
+    // tambahkan varian lain di sini kalau suatu saat muncul
+];
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['csv_file'])) {
     $file = $_FILES['csv_file'];
     if ($file['error'] !== UPLOAD_ERR_OK) {
         $error = "Gagal upload: kode error {$file['error']}.";
     } else {
+        // ====== OPSI: kosongkan dataset dulu agar import selalu bersih ======
+        if (isset($_POST['kosongkan'])) {
+            $conn->query("SET FOREIGN_KEY_CHECKS = 0");
+            $conn->query("TRUNCATE detail_kasus");
+            $conn->query("TRUNCATE data_kasus");
+            $conn->query("SET FOREIGN_KEY_CHECKS = 1");
+        }
+
         $tmp = $file['tmp_name'];
         $h = fopen($tmp, 'r');
         if (!$h) {
             $error = "Tidak bisa membuka file sementara.";
         } else {
-            $sudahAda = (int) $conn->query("SELECT COUNT(*) c FROM data_kasus")->fetch_assoc()['c'];
-            // not blocking — allow re-import with truncation option
             $urutanGejala = ['G01','G02','G03','G04','G05','G06','G07','G08','G09','G10',
                              'G11','G12','G13','G14','G15','G16','G17','G18','G19','G20'];
 
@@ -27,10 +40,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['csv_file'])) {
 
             $rows = [];
             if (preg_match('/^P\d+$/i', $baris1[0] ?? '')) {
-                $rows[] = $baris1;
-            } else {
-                echo ""; // header dilewati
-            }
+                $rows[] = $baris1;      // baris pertama = data
+            }                           // selain itu = header, dilewati
             while (($r = fgetcsv($h, 0, $delimiter)) !== false) $rows[] = $r;
             fclose($h);
 
@@ -41,7 +52,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['csv_file'])) {
 
                 $kodePasien = $row[0];
                 $namaP      = $row[24];
+
+                // ====== NORMALISASI NAMA (sebelum dicocokkan ke master!) ======
+                $namaP = $petaNama[strtolower($namaP)] ?? $namaP;
+
                 if ($kodePasien === '' || $namaP === '') { $dilewati++; continue; }
+
+                // ====== ANTI-DUPLIKAT: lewati kode pasien yang sudah ada ======
+                $q = $conn->prepare("SELECT COUNT(*) c FROM data_kasus WHERE kode_pasien=?");
+                $q->bind_param("s", $kodePasien); $q->execute();
+                if ($q->get_result()->fetch_assoc()['c'] > 0) { $duplikat++; continue; }
 
                 $q = $conn->prepare("SELECT id_penyakit FROM penyakit WHERE LOWER(nama_penyakit)=LOWER(?)");
                 $q->bind_param("s", $namaP); $q->execute();
@@ -68,6 +88,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['csv_file'])) {
                 }
                 $berhasil++;
             }
+            $pesan = "Import selesai: <b>$berhasil</b> kasus masuk, <b>$duplikat</b> dilewati (kode sudah ada), <b>$dilewati</b> baris tidak valid."
+                   . ($penyakitBaru ? "<br><b style='color:#b00'>⚠ Penyakit baru (ejaan tak dikenal): " . htmlspecialchars(implode(', ', $penyakitBaru)) . "</b>" : "")
+                   . "<br>ℹ Jangan lupa <b>Pisah Data → Latih Model → Evaluasi</b> ulang.";
         }
     }
 }
@@ -200,6 +223,10 @@ footer { text-align: center; font-size: 12px; color: var(--text-muted); padding:
       <input type="file" name="csv_file" id="csvFile" accept=".csv,.txt" style="font-size:14px;">
     </div>
     <div class="actions">
+      <label>
+  <input type="checkbox" name="kosongkan" checked>
+  Kosongkan dataset lama dulu (disarankan — cegah data dobel)
+</label><br>
       <button type="submit" class="btn btn-primary">📤 Unggah & Import</button>
       <a href="index.php" class="btn btn-outline">Kembali</a>
     </div>

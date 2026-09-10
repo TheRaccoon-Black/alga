@@ -1,0 +1,301 @@
+ID_Pasien;Nama;Jenis Kelamin;Umur;Gatal;Kemerahan;Bersisik;Kulit Kering;Peradangan;Ruam;Nyeri;Lepuhan;Penebalan Kulit;Bercak Kulit;Perubahan Warna Kulit;Lesi Melingkar;Batas Lesi Tegas;Lokasi Lipatan;Lokasi Kulit Kepala/Wajah;Kerak;Bernanah;Gatal Malam Hari;Mudah Menular;Kulit Pecah-pecah;Diagnosa
+P001;Lisariyah;P;59;1;1;0;1;1;1;1;0;0;0;0;0;0;0;0;0;1;0;0;1;Dermatitis Kontak
+P002;Evontri Oktami;P;25;1;1;1;0;1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;Dermatitis Seboroik
+P003;Jannata Fawwazi;L;11;1;1;1;1;1;1;0;0;1;0;0;0;1;1;0;1;0;0;0;1;Dermatitis Atopik
+P004;Delia Amanda;P;23;1;0;1;1;1;1;0;1;0;0;0;0;1;0;0;0;0;0;0;0;Dermatitis Kontak
+P005;Kemal Khairullah;L;5;1;1;1;0;1;0;0;0;1;0;0;0;0;1;0;0;0;0;0;1;Dermatitis Atopik
+P006;Eleza Okta;P;14;1;1;0;0;1;1;0;0;1;0;0;0;1;0;0;0;0;1;1;0;Skabies
+P007;Samsul Harman;L;62;1;1;0;0;0;1;0;0;1;0;0;0;1;1;0;0;0;1;1;0;Skabies
+P008;Desmi;P;49;1;1;1;0;0;1;0;0;1;1;0;0;1;0;0;0;1;1;1;0;Skabies
+P009;Lepni Hartono;L;42;1;1;0;0;1;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;Dermatitis Seboroik
+P010;Masniarti;P;57;0;1;0;0;1;1;0;1;0;0;0;0;0;0;1;1;1;0;1;0;Impetigo
+P011;Neti Hertati;P;63;1;1;1;0;0;1;0;0;0;1;1;0;0;1;1;0;1;1;0;0;Dermatitis Seboroik
+P012;Tasia;P;63;0;1;0;0;1;1;0;0;0;0;0;0;1;0;0;1;0;0;0;0;Dermatitis Kontak
+P013;Kurniawati ;P;51;0;1;1;0;1;1;0;0;0;0;0;0;0;1;1;1;0;0;0;0;Dermatitis Seboroik
+P014;Sadikin;L;60;0;1;0;1;1;1;0;0;0;1;1;0;1;1;1;0;0;0;0;0;Dermatitis Seboroik
+P015;Sendi Rahmadayani;P;26;1;1;1;0;1;1;0;0;0;0;0;0;0;0;1;1;0;0;0;0;Dermatitis Seboroik
+P016;Yenita;P;44;1;1;0;1;1;1;0;1;0;0;0;0;0;0;0;1;0;0;0;1;Dermatitis Kontak
+P017;Putri;P;40;1;1;1;1;1;0;1;0;0;0;0;0;1;0;0;1;1;0;0;0;Dermatitis Kontak
+P018;Miniar Rosdiana;P;46;1;1;0;0;0;1;1;0;0;0;0;1;1;1;0;0;1;0;0;0;Tinea Cruris
+P019;Yenni Silawati;P;53;0;1;1;0;1;1;0;0;1;0;0;1;1;0;0;0;0;0;0;1;Psoriasis
+P020;Eva Enggriani;P;41;1;1;1;0;1;1;0;0;0;0;0;1;0;1;0;0;0;0;0;0;Tinea Cruris
+P021;Deslina;P;36;1;0;1;0;0;1;0;0;0;1;0;1;1;1;0;0;0;0;0;0;Tinea Cruris
+P022;Erma Nesti;P;53;1;1;1;0;1;1;0;0;1;0;0;0;1;0;0;0;0;0;0;1;Psoriasis
+P023;Raina;P;66;0;1;0;0;1;1;1;1;0;0;0;0;1;0;0;1;1;0;1;0;Herpes Zoster
+P024;Sari Hertika;P;47;0;1;0;0;0;0;0;0;0;0;0;1;1;0;0;0;1;0;1;0;Tinea Corporis
+P025;Aji Bagas;L;34;1;1;1;1;0;1;0;0;0;1;1;1;1;1;0;0;0;0;0;0;Tinea Cruris
+P026;Sarwinto;L;61;1;0;1;1;1;1;0;0;0;0;0;1;1;0;0;0;0;0;1;0;Tinea Cruris
+P027;Okyzan;L;33;1;1;1;0;0;1;0;0;0;0;0;0;0;1;0;0;0;1;1;0;Skabies
+P028;M. Haziq;L;10;1;0;1;1;1;1;0;0;0;1;0;0;0;1;0;1;0;1;0;1;Dermatitis Atopik
+P029;Susni Wartini;P;71;1;1;1;0;1;1;0;0;0;0;1;1;1;1;0;0;0;0;0;0;Tinea Cruris
+P030;Tuhardin;L;64;0;0;0;0;0;1;0;0;0;1;1;0;0;0;0;1;0;0;1;0;Panu
+P031;Aguslan;L;57;0;1;1;0;1;0;0;0;0;0;1;0;1;1;1;0;0;0;1;1;Psoriasis
+P032;Roni;L;29;0;1;1;0;1;1;1;0;1;1;0;1;1;1;0;0;0;0;0;1;Psoriasis
+P033;Dimas Ardian;L;25;1;0;1;0;0;0;1;0;1;1;1;0;0;0;1;0;0;0;0;0;Panu
+P034;Rinjani;P;7;1;1;0;1;1;1;0;0;0;0;0;0;0;1;0;0;0;1;1;0;Skabies
+P035;Irfan Tanjung;L;52;1;0;1;0;1;1;0;0;0;0;0;0;1;0;1;1;0;0;0;0;Psoriasis
+P036;Ahsan;L;3;1;1;1;1;1;1;0;0;1;0;0;0;0;1;0;0;0;0;0;0;Dermatitis Atopik
+P037;Sunnaidi;L;67;1;0;1;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;1;0;Tinea Corporis
+P038;Betry Syahdila Putri;P;19;1;0;1;0;1;1;0;0;0;0;1;1;1;1;0;0;0;0;1;0;Tinea Cruris
+P039;Helda Fransiska;P;35;1;1;1;1;1;1;1;1;0;0;0;0;1;0;1;1;1;0;1;1;Herpes Zoster
+P040;Desmi;P;48;1;1;1;0;1;1;0;0;1;0;0;1;1;0;0;0;1;0;1;0;Tinea Corporis
+P041;Batasmudin;L;58;1;1;1;1;1;1;0;0;1;0;0;0;1;1;0;0;0;0;0;0;Psoriasis
+P042;Riswanti;P;29;0;1;1;1;1;1;1;0;1;0;0;0;1;0;1;0;0;0;1;1;Psoriasis
+P043;Junita Susanti;P;39;1;0;1;0;0;1;0;0;0;0;1;1;1;1;1;0;0;0;1;1;Tinea Cruris
+P044;Wini Herawati;P;61;1;1;1;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;1;0;Tinea Corporis
+P045;Javelin;L;5;1;1;0;1;1;1;0;0;1;0;0;0;1;0;1;1;0;0;0;1;Dermatitis Atopik
+P046;Rusmiati;P;71;0;1;1;0;0;1;0;0;1;1;0;0;1;0;0;0;0;0;0;0;Psoriasis
+P047;Rasman;L;65;1;1;0;0;1;1;0;1;0;0;0;0;0;0;0;1;1;0;1;0;Impetigo
+P048;Yatini;P;34;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0;Vitiligo
+P049;Shadiq Alfa Rezki;L;3;1;1;1;1;1;1;0;1;0;0;0;0;0;1;1;1;0;0;0;1;Dermatitis Atopik
+P050;Sarmin;L;71;1;1;0;1;0;1;0;0;1;0;0;0;1;0;0;0;1;0;0;1;Liken Simplek Kronik
+P051;Tasir;L;82;1;1;0;0;1;1;0;0;0;0;1;1;1;0;1;0;0;0;0;1;Liken Simplek Kronik
+P052;Rida;P;67;1;1;0;0;1;0;0;0;1;1;0;0;1;0;0;0;0;0;0;1;Liken Simplek Kronik
+P053;Iin Setiawan;L;45;1;1;1;1;1;0;0;0;1;1;0;0;1;0;0;0;0;0;0;1;Liken Simplek Kronik
+P054;Dina Fitriyani;P;42;1;0;0;1;0;0;0;0;1;1;0;0;1;0;0;0;0;0;0;1;Liken Simplek Kronik
+P055;Syafira Naila;P;8;0;0;0;0;0;1;0;0;0;1;1;0;0;0;0;0;0;0;0;0;Vitiligo
+P056;Sudarman;L;61;0;1;1;1;1;1;0;1;0;0;0;0;0;1;1;1;0;0;0;0;Dermatitis Seboroik
+P057;M. Faris;L;14;1;1;1;1;1;1;0;1;0;0;0;0;0;1;0;1;0;0;0;1;Dermatitis Atopik
+P058;Heriyanto;L;55;1;0;1;0;0;0;0;0;1;0;1;0;1;0;0;0;0;0;0;0;Liken Simplek Kronik
+P059;Sudirman;L;73;1;0;1;0;1;0;0;0;1;1;0;0;1;0;1;0;0;0;0;0;Liken Simplek Kronik
+P060;Sehan Anfika;P;3;1;1;1;1;1;1;0;0;1;0;0;0;0;1;0;1;0;0;0;1;Dermatitis Atopik
+P061;M. Furqon Hidayatullah;L;14;0;1;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;Panu
+P062;Saparudin;L;64;1;1;1;0;0;1;0;0;0;0;0;1;1;0;0;1;0;0;1;1;Tinea Corporis
+P063;Nuricis Ayu Fadella;P;20;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0;Vitiligo
+P064;Hazel Nabil Mustapa;L;8;1;1;1;1;1;1;0;1;0;0;0;0;0;1;0;1;0;0;0;1;Dermatitis Atopik
+P065;Asardin;L;71;0;1;0;0;1;1;1;1;0;1;0;0;0;0;0;0;0;0;0;0;Herpes Zoster
+P066;Lipi Semawita;P;38;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0;Vitiligo
+P067;Rusni;P;61;0;0;0;0;1;0;1;1;0;0;0;0;1;0;0;1;1;0;1;0;Herpes Zoster
+P068;Qaireen Salsabilla;P;2;0;0;0;0;0;0;0;0;0;1;1;0;0;0;1;1;0;0;0;0;Vitiligo
+P069;Gumilar Kanaka Pramista;L;3;1;1;1;1;1;1;0;1;1;0;0;0;0;1;0;1;0;0;0;1;Dermatitis Atopik
+P070;Razel Alfarizal;L;8;1;1;1;1;1;1;0;1;1;0;0;0;0;0;1;0;0;0;0;1;Dermatitis Atopik
+P071;Tiana Julita;P;20;1;1;1;1;1;0;0;1;0;0;0;0;1;1;1;1;0;0;0;1;Dermatitis Atopik
+P072;Rumis;L;59;1;1;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;1;1;0;Skabies
+P073;Aisyah Humaira;P;6;1;1;1;1;1;1;1;0;1;0;0;0;0;0;1;0;0;1;0;1;Dermatitis Atopik
+P074;Suisman;L;48;1;1;0;0;0;1;1;1;0;0;0;0;1;0;0;1;0;0;1;0;Herpes Zoster
+P075;Veko Praja Gunawan;L;20;1;1;1;0;0;1;0;0;0;1;1;0;0;0;1;0;0;0;0;0;Panu
+P076;Monika Claudia;P;28;1;1;1;0;0;0;0;0;1;0;0;0;0;0;1;0;0;1;1;1;Skabies
+P077;Kiarra Amora;P;4;1;1;1;1;1;1;0;1;1;0;0;0;0;0;0;0;0;1;0;0;Dermatitis Atopik
+P078;Nabila;P;6;1;1;1;1;1;1;0;1;0;0;0;0;0;1;1;0;0;0;1;1;Dermatitis Atopik
+P079;Raysa Dania Syakirah;P;2;1;1;1;0;1;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;Dermatitis Atopik
+P080;Ilyas Zaidan Zaldan Zuhri;L;3;1;1;1;1;1;1;0;0;1;0;1;0;0;0;1;1;0;0;0;1;Dermatitis Atopik
+P081;Jusina;P;80;0;1;0;0;0;1;0;1;0;0;0;0;0;0;0;1;0;0;1;0;Impetigo
+P082;Muhammad Al Fathan;L;12;0;0;1;0;0;0;0;0;0;1;1;0;1;0;0;1;0;0;0;0;Panu
+P083;Renaldi;L;20;0;1;1;0;0;1;0;0;0;1;1;0;0;0;0;0;0;0;0;0;Panu
+P084;Anisa Meilani;P;26;1;0;1;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;Panu
+P085;Basaria;P;76;1;1;0;0;1;1;1;1;0;0;0;0;0;0;0;1;0;0;1;0;Herpes Zoster
+P086;Kimberly Queen;P;7;1;1;1;1;1;1;0;1;0;0;0;0;0;1;1;0;0;0;0;0;Dermatitis Atopik
+P087;Insa Rahmad;L;54;0;1;0;1;1;1;1;1;0;0;0;0;1;0;0;1;1;1;1;0;Herpes Zoster
+P088;Yurmidawati;P;54;0;1;0;0;1;1;1;1;0;0;0;0;1;0;0;1;0;1;1;0;Herpes Zoster
+P089;Efredi Darwasa;L;61;1;1;1;1;1;1;0;0;0;0;0;0;1;1;0;0;0;0;1;0;Skabies
+P090;Abdur Rahman;L;21;1;1;1;0;0;1;0;0;1;0;0;0;0;1;0;0;0;1;1;0;Skabies
+P091;Feodora Neisha Rygita;P;13;1;1;1;1;0;1;0;0;0;0;0;0;0;1;1;0;0;0;0;1;Dermatitis Atopik
+P092;Hibaan Rahmatullah;L;11;1;1;1;1;1;0;0;0;0;0;0;0;0;0;1;0;1;0;0;1;Dermatitis Atopik
+P093;Sumarti;P;67;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;Skabies
+P094;Farrid Ihkwan;L;19;0;1;1;0;0;0;0;0;0;1;1;0;0;0;1;0;0;0;0;0;Panu
+P095;Arrasya Alkhalifi Indra;L;5;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;Skabies
+P096;Halidin;L;71;0;1;0;0;1;1;1;1;0;1;0;0;0;0;0;1;0;0;1;0;Herpes Zoster
+P097;Naharudin;L;70;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;0;1;1;0;Panu
+P098;Mizi Rosita;P;43;1;0;0;0;1;1;0;1;0;0;0;0;0;0;1;1;1;0;0;1;Impetigo
+P099;Karmin;L;59;1;0;1;1;1;1;0;0;1;0;0;0;1;0;0;0;0;0;0;0;Psoriasis
+P100;Rupli;L;69;0;1;1;0;0;1;0;0;0;0;1;0;1;0;1;0;0;0;0;1;Dermatitis Seboroik
+P101;Marissa Casih;P;11;0;0;1;0;0;1;0;0;0;1;1;0;1;0;1;1;0;0;1;0;Panu
+P102;Juna;L;78;0;1;1;0;1;1;0;0;1;0;0;0;1;0;1;0;0;0;0;0;Psoriasis
+P103;Delli Yarti;P;35;1;0;1;0;0;1;0;0;1;0;0;0;1;0;1;0;0;0;0;0;Liken Simplek Kronik
+P104;Sofri Herianto;L;49;0;1;1;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;Dermatitis Kontak
+P105;Leny Afriansi;P;45;1;1;0;0;1;1;0;0;1;1;0;0;1;0;0;0;0;0;0;1;Liken Simplek Kronik
+P106;Bahurudin;L;68;1;1;0;1;1;1;0;0;1;1;0;0;1;0;0;0;0;0;0;1;Liken Simplek Kronik
+P107;Zumi Haryati;P;51;1;0;0;1;1;1;0;0;0;0;0;0;1;0;1;0;0;0;0;0;Dermatitis Seboroik
+P108;Sugiyono;L;65;1;1;1;1;1;0;0;0;0;1;0;1;1;0;1;0;0;0;0;0;Psoriasis
+P109;Runmania;P;58;1;1;1;1;1;0;1;0;1;1;0;0;0;1;1;0;0;0;0;1;Dermatitis Kontak
+P110;Yunita;P;43;0;1;1;0;1;1;0;0;0;0;0;0;0;0;1;1;0;0;0;0;Dermatitis Seboroik
+P111;Sri Darti;P;65;1;1;1;1;1;1;0;0;1;0;0;0;1;0;0;0;0;0;0;1;Liken Simplek Kronik
+P112;Lukim;L;63;1;1;0;1;1;1;0;0;1;1;0;0;1;0;0;1;0;0;0;1;Liken Simplek Kronik
+P113;Azizah;P;46;1;1;1;0;0;1;0;1;1;0;0;0;1;1;0;0;0;0;0;0;Dermatitis Kontak
+P114;Fitriani;P;48;0;1;1;0;1;0;0;0;0;1;0;0;0;0;1;0;1;0;0;0;Dermatitis Seboroik
+P115;Oyi Lestari;P;25;1;1;1;0;1;1;0;0;0;0;0;1;0;0;1;0;0;0;1;1;Tinea Corporis
+P116;Darisman;L;50;0;1;1;0;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;Dermatitis Seboroik
+P117;Juliarto;L;58;0;1;1;0;1;1;0;0;0;1;1;0;1;0;1;0;0;0;0;1;Psoriasis
+P118;Said Ali;L;58;0;1;1;0;1;1;0;0;0;1;0;1;1;0;1;0;0;0;0;0;Psoriasis
+P119;Riwanti;P;48;1;1;1;0;1;0;0;0;1;0;0;0;1;0;1;0;0;0;0;0;Psoriasis
+P120;Nurhayati;P;70;1;1;1;0;0;1;0;0;1;1;0;1;1;0;0;0;0;0;0;0;Liken Simplek Kronik
+P121;Heral Jakup;L;78;0;1;1;0;0;1;0;0;0;0;0;1;0;0;1;0;0;0;0;0;Dermatitis Seboroik
+P122;Kamris;L;47;1;1;1;1;0;1;0;0;0;1;0;0;1;1;0;0;0;0;0;0;Psoriasis
+P123;Eprieke Fiantri;P;43;1;0;1;0;0;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;Dermatitis Seboroik
+P124;Yulman Hakim;L;72;1;1;0;1;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;1;Dermatitis Kontak
+P125;Vivi Herdawati;P;54;1;1;0;0;1;0;0;0;0;0;0;1;1;1;0;0;0;0;1;0;Tinea Cruris
+P126;Rizki Fitriani ;P;33;0;1;1;0;1;1;1;0;0;1;0;0;0;0;1;1;0;1;0;0;Dermatitis Seboroik
+P127;Lio Candra;L;26;1;1;1;1;1;1;1;0;0;0;0;0;0;0;0;1;0;0;1;0;Dermatitis Kontak
+P128;Zain;L;81;1;1;1;0;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;Dermatitis Seboroik
+P129;Wahyu Kurniawan;L;27;1;1;1;1;1;1;0;0;0;1;0;0;1;0;1;0;0;0;0;1;Psoriasis
+P130;Katima;P;80;0;1;1;0;0;0;1;0;0;1;0;0;1;0;0;1;0;0;0;0;Dermatitis Seboroik
+P131;Muhidin;L;71;1;1;0;1;1;1;0;0;0;0;0;0;0;0;1;0;0;0;0;0;Dermatitis Seboroik
+P132;Meramin;L;65;0;1;0;1;1;1;0;0;0;0;0;0;1;0;0;0;1;0;0;0;Psoriasis
+P133;Siti;P;42;1;1;0;1;1;1;0;1;0;1;0;0;1;0;0;0;0;0;0;0;Dermatitis Kontak
+P134;Tarmizi;L;75;1;1;1;1;1;1;0;0;0;1;0;1;0;1;1;0;0;0;1;0;Dermatitis Seboroik
+P135;Aisyah Alfathunisa;P;2;0;0;0;0;0;0;1;0;0;1;1;0;1;0;0;0;0;0;1;0;Vitiligo
+P136;Lukito;L;64;1;0;0;1;0;1;0;0;1;0;0;0;1;0;1;0;0;0;0;1;Liken Simplek Kronik
+P137;Isti;P;49;0;1;1;0;1;1;0;0;1;0;0;0;1;0;0;0;0;1;0;1;Dermatitis Seboroik
+P138;Yeyen Afrianti;P;46;1;1;1;1;0;1;0;0;0;0;1;1;1;1;0;0;1;0;1;0;Tinea Cruris
+P139;Henny;P;57;1;1;1;1;1;0;0;0;1;0;1;0;1;0;0;1;0;0;0;1;Liken Simplek Kronik
+P140;Sahroni Efendi;L;52;1;1;1;0;1;0;0;0;1;1;0;0;1;1;1;0;1;0;0;0;Psoriasis
+P141;Helmi;L;65;1;1;1;1;1;0;0;0;0;0;0;0;1;0;0;1;0;0;0;0;Dermatitis Kontak
+P142;Shinta Nefida Sari;P;44;1;0;1;1;1;1;0;0;1;0;1;0;1;1;0;1;1;0;0;1;Dermatitis Kontak
+P143;Desmaningsi;P;49;0;1;1;1;1;1;0;1;0;1;0;1;1;0;0;0;0;0;0;1;Dermatitis Kontak
+P144;Dina Hartini;P;45;1;0;1;1;1;1;0;0;0;1;0;1;1;0;1;0;0;0;0;0;Psoriasis
+P145;Sonya Vera Yola;P;26;1;0;0;1;0;0;0;0;1;0;0;0;1;1;1;0;0;0;0;0;Liken Simplek Kronik
+P146;Heriyatman;L;63;1;1;1;1;1;1;0;1;0;0;0;0;1;0;0;0;0;0;0;0;Dermatitis Kontak
+P147;Markos Sufawi;L;47;1;1;1;1;0;1;0;0;0;1;0;1;1;0;1;0;0;0;0;0;Tinea Corporis
+P148;Imas Novita Sari;P;37;0;1;0;0;1;1;0;0;0;0;0;0;0;0;0;1;1;0;1;0;Impetigo
+P149;Hartono;L;51;1;1;1;0;1;1;0;0;1;0;1;0;1;0;0;0;0;0;0;0;Psoriasis
+P150;Dendi Saputra;L;21;1;0;0;1;0;0;0;0;0;1;1;0;1;0;1;0;0;0;0;0;Vitiligo
+P151;Melti Dahlia;P;35;1;1;1;1;1;1;0;0;0;0;0;0;0;1;1;1;1;0;0;0;Dermatitis Kontak
+P152;Annisa;P;32;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;1;Dermatitis Kontak
+P153;Frengki Indra;L;38;1;1;0;1;1;0;0;0;1;0;0;0;1;0;1;0;1;0;0;1;Liken Simplek Kronik
+P154;Burzion;L;72;1;1;1;1;1;0;0;0;1;1;0;0;1;1;0;0;0;0;0;1;Liken Simplek Kronik
+P155;Surya Budi;L;68;1;1;1;0;0;1;0;0;0;0;0;1;1;1;0;0;0;0;0;0;Tinea Cruris
+P156;Ngadino;L;63;1;1;1;0;0;1;0;0;1;0;0;0;1;0;0;1;0;0;0;1;Liken Simplek Kronik
+P157;Hajirin;L;46;1;1;1;1;0;0;0;0;1;1;0;0;1;1;0;0;0;0;0;1;Liken Simplek Kronik
+P158;Arun Suardi;L;48;1;1;0;0;1;1;0;0;0;1;0;1;1;1;0;0;0;0;1;0;Tinea Cruris
+P159;Yenti;P;56;1;1;1;0;1;1;0;0;1;0;0;1;0;1;0;0;0;0;0;0;Tinea Cruris
+P160;Yuhardin;L;76;1;1;1;0;1;0;0;0;0;0;0;1;1;1;0;0;0;0;1;0;Tinea Cruris
+P161;Dwi Kristiani;P;48;1;1;1;0;1;1;0;0;0;0;0;1;1;0;0;0;0;0;0;0;Tinea Corporis
+P162;Floryn;P;1;0;1;0;0;1;1;1;0;0;0;0;0;1;0;0;1;1;0;1;0;Impetigo
+P163;Farel Aditia;L;20;1;0;1;0;0;1;0;0;0;0;0;1;1;0;0;1;0;0;0;0;Tinea Corporis
+P164;Herman;L;72;1;1;1;0;0;1;0;0;0;0;0;1;1;1;0;1;0;0;1;0;Tinea Cruris
+P165;Boyman;L;68;1;1;1;1;0;1;0;0;0;0;0;1;1;1;0;0;1;1;0;0;Tinea Cruris
+P166;Nini Susilawati;P;48;1;1;1;0;1;1;0;0;0;0;0;1;1;1;0;0;0;1;0;0;Tinea Cruris
+P167;Simin;L;67;1;1;1;0;1;1;0;0;0;1;1;1;1;1;0;0;0;0;0;0;Tinea Cruris
+P168;Natasa Dwi;P;10;0;0;0;0;0;1;0;0;0;1;0;0;1;0;1;0;0;0;0;0;Vitiligo
+P169;Indrawarini;P;67;1;1;1;1;1;1;0;0;0;0;0;1;1;0;0;0;0;0;1;0;Tinea Corporis
+P170;M. Abdul Aziz;L;10;0;0;1;0;0;0;0;0;0;1;1;0;0;0;1;0;0;0;0;0;Panu
+P171;Parima;P;63;1;1;1;0;1;1;0;0;0;0;0;1;0;1;0;0;0;0;1;0;Tinea Cruris
+P172;Tasa Haniah;P;84;1;0;1;1;1;1;0;0;0;0;1;1;1;1;0;0;0;0;0;1;Tinea Cruris
+P173;Firmansyah;L;63;1;1;1;1;0;1;0;0;1;0;0;0;1;1;1;0;0;0;0;1;Dermatitis Kontak
+P174;Sumayati;P;62;0;1;1;1;1;1;0;0;0;0;0;0;1;1;0;1;0;0;0;1;Dermatitis Kontak
+P175;Rosmaladewi;P;64;1;1;1;1;0;1;0;0;0;0;0;1;1;0;0;0;0;0;0;0;Tinea Corporis
+P176;Ahmad Hifdzil;L;34;1;1;1;0;1;0;1;0;0;1;0;1;1;1;0;0;0;0;1;0;Tinea Corporis
+P177;Mopi Noprianti;P;41;1;1;1;1;1;1;0;0;0;0;1;0;1;1;0;0;0;0;0;1;Dermatitis Kontak
+P178;Nurbaiti;P;60;0;1;1;0;1;1;0;0;0;0;0;1;0;0;0;0;0;0;1;1;Tinea Corporis
+P179;M. Fawwas Wijaya;L;3;1;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;1;1;1;Skabies
+P180;Desmi ;P;48;1;1;1;0;1;1;0;0;1;0;1;1;1;1;0;0;0;0;1;0;Tinea Corporis
+P181;Suran Nihral;L;68;0;0;0;1;1;1;0;0;0;1;1;0;1;0;1;1;0;0;1;0;Panu
+P182;Exel Sugandi;L;20;0;1;1;0;0;1;0;1;1;1;0;1;1;0;0;0;0;0;1;0;Tinea Corporis
+P183;Bustami;L;67;1;1;1;0;1;1;1;0;0;0;0;1;1;0;0;0;1;0;1;0;Tinea Corporis
+P184;Yudirman;L;73;1;0;1;1;0;1;0;0;1;1;0;1;1;0;0;0;0;0;0;0;Tinea Corporis
+P185;Asman Sidi;L;55;1;1;1;0;1;1;0;0;0;0;0;1;1;0;0;0;1;0;1;0;Tinea Corporis
+P186;Suparman;L;51;1;1;1;0;1;1;0;0;0;0;0;0;0;1;1;0;0;1;1;1;Skabies
+P187;Lionel Aga Franata;L;7;1;1;0;0;1;1;0;0;0;0;0;0;0;0;1;1;1;0;1;0;Impetigo
+P188;Ronald;L;40;1;0;1;0;1;1;1;0;0;0;0;0;0;0;0;1;0;1;1;0;Skabies
+P189;Rafi Adrinsyah;L;17;0;0;0;0;0;1;0;0;0;1;1;0;0;0;0;0;0;0;0;0;Panu
+P190;Elva Putriani;P;34;1;0;1;0;0;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;Panu
+P191;Naila Azzahrah;P;13;0;0;1;0;0;0;0;0;0;1;1;0;1;0;1;0;0;0;0;0;Panu
+P192;Eva Melani;P;48;1;1;0;0;1;1;1;1;0;1;0;0;1;0;0;0;0;0;1;0;Herpes Zoster
+P193;Supranaidi;L;42;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;Vitiligo
+P194;Kurnia;P;57;0;1;1;0;0;1;1;0;0;0;0;0;0;0;0;1;1;0;1;0;Impetigo
+P195;Piona Dwi Lestari;P;16;1;1;0;0;1;1;0;0;0;0;0;0;1;0;0;0;0;1;1;0;Skabies
+P196;Wiwik Triani;P;22;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;Vitiligo
+P197;Safiyyah;P;25;0;1;0;0;1;1;0;1;0;0;0;0;0;0;0;1;1;0;0;0;Impetigo
+P198;Raffasya Kaulsarrazky;L;3;1;1;0;0;0;0;1;0;0;0;0;0;0;0;0;1;0;1;1;0;Skabies
+P199;Rian Hidayat;L;38;0;1;1;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;Dermatitis Kontak
+P200;Rara Hakim;L;61;1;0;1;1;1;1;0;1;0;0;0;0;1;0;0;0;0;0;0;0;Dermatitis Kontak
+P201;Aulia Setiawan;P;55;1;1;1;1;1;1;0;0;0;0;0;0;0;1;1;1;1;0;0;0;Dermatitis Kontak
+P202;Rian Wulandari;L;42;1;1;1;1;1;0;1;0;1;1;0;0;0;1;1;0;0;0;0;1;Dermatitis Kontak
+P203;Nisa Saputra;L;12;1;1;1;1;1;1;1;0;0;0;0;0;0;0;0;1;0;0;1;0;Dermatitis Kontak
+P204;Fitria Anggraini;L;55;1;1;1;0;1;1;0;0;0;0;0;0;0;0;1;1;0;0;0;0;Dermatitis Seboroik
+P205;Rafa Wijaya;P;38;1;1;0;0;1;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;Dermatitis Seboroik
+P206;Nabila Hidayat;L;33;1;1;1;0;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;Dermatitis Seboroik
+P207;Rara Hidayat;P;28;0;1;1;1;1;1;0;1;0;0;0;0;0;1;1;1;0;0;0;0;Dermatitis Seboroik
+P208;Aulia Ramadhan;P;36;0;1;1;0;1;1;0;0;0;0;0;0;0;0;1;1;0;0;0;0;Dermatitis Seboroik
+P209;Maya Hidayat;P;53;1;1;1;1;1;1;0;1;0;0;0;0;0;1;1;1;0;0;0;1;Dermatitis Atopik
+P210;Galang Fauzan;L;60;1;1;1;0;1;0;0;0;1;0;0;0;0;1;0;0;0;0;0;1;Dermatitis Atopik
+P211;Fitria Setiawan;P;14;1;1;1;0;1;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;Dermatitis Atopik
+P212;Fajar Lestari;P;16;1;1;1;1;1;1;0;1;0;0;0;0;0;1;0;1;0;0;0;1;Dermatitis Atopik
+P213;Rizky Setiawan;P;28;1;1;1;1;1;1;0;1;1;0;0;0;0;1;0;1;0;0;0;1;Dermatitis Atopik
+P214;Dewi Maulana;P;56;1;1;1;0;1;1;0;0;0;0;1;1;1;1;0;0;0;0;0;0;Tinea Cruris
+P215;Bella Sari;L;31;1;1;1;0;1;1;0;0;0;0;0;1;0;1;0;0;0;0;0;0;Tinea Cruris
+P216;Bima Setiawan;L;47;1;1;1;1;0;1;0;0;0;0;0;1;1;1;0;0;1;1;0;0;Tinea Cruris
+P217;Rizky Putra;L;32;1;0;1;0;1;1;0;0;0;0;1;1;1;1;0;0;0;0;1;0;Tinea Cruris
+P218;Siti Amelia;P;51;1;1;1;1;0;1;0;0;0;0;1;1;1;1;0;0;1;0;1;0;Tinea Cruris
+P219;Reza Hidayat;P;18;1;0;1;0;0;0;0;0;1;0;1;0;1;0;0;0;0;0;0;0;Liken Simplek Kronik
+P220;Tio Sari;L;29;1;1;0;0;1;1;0;0;0;0;1;1;1;0;1;0;0;0;0;1;Liken Simplek Kronik
+P221;Rani Setiawan;P;51;1;0;0;1;0;0;0;0;1;0;0;0;1;1;1;0;0;0;0;0;Liken Simplek Kronik
+P222;Fitria Permata;P;62;1;0;1;0;1;0;0;0;1;1;0;0;1;0;1;0;0;0;0;0;Liken Simplek Kronik
+P223;Ahmad Permata;L;52;1;1;0;1;1;1;0;0;1;1;0;0;1;0;0;0;0;0;0;1;Liken Simplek Kronik
+P224;Fitria Saputra;L;51;1;1;1;1;1;1;0;0;1;0;0;0;1;1;0;0;0;0;0;0;Psoriasis
+P225;Tio Fauzan;P;42;1;1;1;0;1;1;0;0;1;0;0;0;1;0;0;0;0;0;0;1;Psoriasis
+P226;Rani Purnama;P;11;1;1;1;1;1;1;0;0;0;1;0;0;1;0;1;0;0;0;0;1;Psoriasis
+P227;Nadia Fauzan;P;29;0;1;1;1;1;1;1;0;1;0;0;0;1;0;1;0;0;0;1;1;Psoriasis
+P228;Rara Putra;L;23;0;1;1;0;1;1;0;0;1;0;0;0;1;0;1;0;0;0;0;0;Psoriasis
+P229;Naufal Ananda;P;59;1;1;1;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;1;0;Tinea Corporis
+P230;Nabila Purnama;P;22;1;0;1;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;1;0;Tinea Corporis
+P231;Raka Fauzan;L;18;1;1;1;0;1;1;1;0;0;0;0;1;1;0;0;0;1;0;1;0;Tinea Corporis
+P232;Ilham Purnama;L;14;1;1;1;1;0;1;0;0;0;0;0;1;1;0;0;0;0;0;0;0;Tinea Corporis
+P233;Ahmad Ramadhan;P;64;1;1;1;1;0;1;0;0;0;0;0;1;1;0;0;0;0;0;0;0;Tinea Corporis
+P234;Citra Nugraha;L;42;1;1;1;0;1;0;1;0;0;1;0;1;1;1;0;0;0;0;1;0;Tinea Corporis
+P235;Rizky Ramadhan;L;52;1;0;1;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;1;0;Tinea Corporis
+P236;Rara Anggraini;P;59;1;1;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;1;1;0;Skabies
+P237;Intan Pratama;L;48;1;1;0;0;0;1;0;0;1;0;0;0;1;1;0;0;0;1;1;0;Skabies
+P238;Zahra Ananda;P;19;1;1;0;0;0;0;1;0;0;0;0;0;0;0;0;1;0;1;1;0;Skabies
+P239;Bella Lestari;L;21;1;1;1;0;0;1;0;0;1;0;0;0;0;1;0;0;0;1;1;0;Skabies
+P240;Intan Nugraha;L;56;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;Skabies
+P241;Nadia Hidayat;P;12;1;1;0;0;1;1;0;0;1;0;0;0;1;0;0;0;0;1;1;0;Skabies
+P242;Maya Kurniawan;P;33;1;1;0;0;1;1;0;0;0;0;0;0;1;0;0;0;0;1;1;0;Skabies
+P243;Ardi Sari;L;38;1;1;1;0;0;1;0;0;1;0;0;0;0;1;0;0;0;1;1;0;Skabies
+P244;Raka Wijaya;P;58;1;1;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;1;1;0;Skabies
+P245;Aisyah Nugraha;P;24;0;1;1;0;0;1;0;0;0;1;1;0;0;0;0;0;0;0;0;0;Panu
+P246;Vina Setiawan;L;29;1;0;1;0;0;0;1;0;1;1;1;0;0;0;1;0;0;0;0;0;Panu
+P247;Fajar Setiawan;P;63;1;1;1;0;0;1;0;0;0;1;1;0;0;0;1;0;0;0;0;0;Panu
+P248;Alya Sari;L;33;0;1;1;0;0;0;0;0;0;1;1;0;0;0;1;0;0;0;0;0;Panu
+P249;Citra Putra;P;39;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;0;1;1;0;Panu
+P250;Vina Putra;P;59;0;0;0;0;0;1;0;0;0;1;1;0;0;0;0;1;0;0;1;0;Panu
+P251;Rara Sari;P;42;1;0;1;0;0;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;Panu
+P252;Galang Maulana;P;20;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;0;1;1;0;Panu
+P253;Bima Wijaya;L;61;0;0;1;0;0;0;0;0;0;1;1;0;0;0;1;0;0;0;0;0;Panu
+P254;Fahri Fauzan;L;65;0;0;1;0;0;0;0;0;0;1;1;0;0;0;1;0;0;0;0;0;Panu
+P255;Rafa Fauzan;P;13;0;1;0;0;1;1;1;1;0;1;0;0;0;0;0;0;0;0;0;0;Herpes Zoster
+P256;Nisa Kurniawan;P;65;0;1;0;0;1;1;1;1;0;0;0;0;1;0;0;1;0;1;1;0;Herpes Zoster
+P257;Ardi Wijaya;P;45;0;1;0;0;1;1;1;1;0;1;0;0;0;0;0;1;0;0;1;0;Herpes Zoster
+P258;Dewi Fauzan;L;55;1;1;0;0;1;1;1;1;0;1;0;0;1;0;0;0;0;0;1;0;Herpes Zoster
+P259;Dimas Hidayat;L;28;0;1;0;0;1;1;1;1;0;0;0;0;1;0;0;1;1;0;1;0;Herpes Zoster
+P260;Reza Anggraini;L;58;1;1;0;0;1;1;1;1;0;0;0;0;0;0;0;1;0;0;1;0;Herpes Zoster
+P261;Nabila Pratama;L;27;0;1;0;1;1;1;1;1;0;0;0;0;1;0;0;1;1;1;1;0;Herpes Zoster
+P262;Rizky Hidayat;P;42;0;1;0;1;1;1;1;1;0;0;0;0;1;0;0;1;1;1;1;0;Herpes Zoster
+P263;Reza Kurniawan;L;63;0;1;0;1;1;1;1;1;0;0;0;0;1;0;0;1;1;1;1;0;Herpes Zoster
+P264;Ilham Ananda;P;15;0;0;0;0;1;0;1;1;0;0;0;0;1;0;0;1;1;0;1;0;Herpes Zoster
+P265;Salsa Setiawan;L;62;1;1;1;1;1;1;1;1;0;0;0;0;1;0;1;1;1;0;1;1;Herpes Zoster
+P266;Intan Permata;P;32;0;1;0;0;1;1;1;1;0;1;0;0;0;0;0;0;0;0;0;0;Herpes Zoster
+P267;Nadia Wijaya;L;36;0;1;0;0;1;1;1;1;0;0;0;0;1;0;0;1;1;0;1;0;Herpes Zoster
+P268;Bagas Purnama;L;35;0;1;0;0;1;1;1;1;0;0;0;0;1;0;0;1;0;1;1;0;Herpes Zoster
+P269;Citra Lestari;P;25;0;1;0;0;1;1;1;1;0;0;0;0;1;0;0;1;1;0;1;0;Herpes Zoster
+P270;Nadia Ananda;P;15;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0;Vitiligo
+P271;Maya Saputra;P;24;0;0;0;0;0;1;0;0;0;1;0;0;1;0;1;0;0;0;0;0;Vitiligo
+P272;Lina Amelia;L;30;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;Vitiligo
+P273;Nadia Putra;L;63;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;Vitiligo
+P274;Fahri Nugraha;P;60;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0;Vitiligo
+P275;Dewi Anggraini;L;18;0;0;0;0;0;0;1;0;0;1;1;0;1;0;0;0;0;0;1;0;Vitiligo
+P276;Tio Ananda;L;28;1;0;0;1;0;0;0;0;0;1;1;0;1;0;1;0;0;0;0;0;Vitiligo
+P277;Dewi Kurniawan;P;54;1;0;0;1;0;0;0;0;0;1;1;0;1;0;1;0;0;0;0;0;Vitiligo
+P278;Nisa Hidayat;L;58;1;0;0;1;0;0;0;0;0;1;1;0;1;0;1;0;0;0;0;0;Vitiligo
+P279;Hana Sari;P;38;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0;Vitiligo
+P280;Bagas Wardana;L;15;0;0;0;0;0;1;0;0;0;1;1;0;0;0;0;0;0;0;0;0;Vitiligo
+P281;Fitria Hakim;L;26;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0;Vitiligo
+P282;Fahri Saputra;L;63;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0;Vitiligo
+P283;Ardi Hidayat;L;45;0;0;0;0;0;1;0;0;0;1;0;0;1;0;1;0;0;0;0;0;Vitiligo
+P284;Bima Putra;P;17;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0;Vitiligo
+P285;Lina Kurniawan;P;25;0;1;0;0;0;1;0;1;0;0;0;0;0;0;0;1;0;0;1;0;Impetigo
+P286;Lina Anggraini;P;17;0;1;1;0;0;1;1;0;0;0;0;0;0;0;0;1;1;0;1;0;Impetigo
+P287;Ardi Putra;L;25;0;1;0;0;1;1;0;1;0;0;0;0;0;0;0;1;1;0;0;0;Impetigo
+P288;Alya Pratama;P;50;1;1;0;0;1;1;0;0;0;0;0;0;0;0;1;1;1;0;1;0;Impetigo
+P289;Lina Wijaya;P;14;0;1;0;0;1;1;0;1;0;0;0;0;0;0;1;1;1;0;1;0;Impetigo
+P290;Lina Fauzan;L;63;1;1;0;0;1;1;0;0;0;0;0;0;0;0;1;1;1;0;1;0;Impetigo
+P291;Bagas Amelia;P;48;0;1;0;0;1;1;1;0;0;0;0;0;1;0;0;1;1;0;1;0;Impetigo
+P292;Reza Permata;L;50;1;1;0;0;1;1;0;0;0;0;0;0;0;0;1;1;1;0;1;0;Impetigo
+P293;Raka Maulana;L;55;1;1;0;0;1;1;0;0;0;0;0;0;0;0;1;1;1;0;1;0;Impetigo
+P294;Lina Hidayat;L;28;1;0;0;0;1;1;0;1;0;0;0;0;0;0;1;1;1;0;0;1;Impetigo
+P295;Fahri Purnama;P;10;1;1;0;0;1;1;0;1;0;0;0;0;0;0;0;1;1;0;1;0;Impetigo
+P296;Aulia Ananda;P;25;0;1;0;0;1;1;0;1;0;0;0;0;0;0;0;1;1;0;0;0;Impetigo
+P297;Salsa Ananda;P;21;0;1;0;0;1;1;0;1;0;0;0;0;0;0;1;1;1;0;1;0;Impetigo
+P298;Tio Maulana;L;43;0;1;0;0;1;1;1;0;0;0;0;0;1;0;0;1;1;0;1;0;Impetigo
+P299;Dimas Ananda;P;14;0;1;0;0;1;1;0;1;0;0;0;0;0;0;1;1;1;0;1;0;Impetigo
+P300;Rani Pratama;L;34;0;1;0;0;1;1;0;1;0;0;0;0;0;0;1;1;1;0;1;0;Impetigo

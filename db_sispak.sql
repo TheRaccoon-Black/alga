@@ -4588,7 +4588,7 @@ INSERT INTO `penyakit` (`id_penyakit`, `nama_penyakit`) VALUES
 ('PK02', 'Dermatitis Seboroik'),
 ('PK03', 'Dermatitis Atopik'),
 ('PK04', 'Tinea Cruris'),
-('PK05', 'Liken Simpleks Kronik'),
+('PK05', 'Liken Simplek Kronik'),
 ('PK06', 'Psoriasis'),
 ('PK07', 'Tinea Corporis'),
 ('PK08', 'Skabies'),
@@ -4596,7 +4596,6 @@ INSERT INTO `penyakit` (`id_penyakit`, `nama_penyakit`) VALUES
 ('PK10', 'Herpes Zoster'),
 ('PK11', 'Vitiligo'),
 ('PK12', 'Impetigo'),
-('PK13', 'Liken Simplek Kronik');
 
 --
 -- Indexes for dumped tables

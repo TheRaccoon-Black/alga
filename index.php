@@ -360,6 +360,14 @@ tr:hover td { background: #f8fafc; }
     <span class="ikon">📥</span>
     <span><b>Import Data CSV</b><small>Masukkan data kasus dari file Excel/CSV</small></span>
   </a>
+   <a href="tambah_kasus.php">
+    <span class="ikon">➕</span>
+    <span><b>Tambah Kasus Manual</b><small>Input satu data pasien secara langsung</small></span>
+  </a>
+  <a href="hapus_dataset.php">
+    <span class="ikon">🗑️</span>
+    <span><b>Hapus Dataset</b><small>Kosongkan data kasus untuk import ulang</small></span>
+  </a>
   <a href="pisah_data.php">
     <span class="ikon">✂️</span>
     <span><b>Pisah Data</b><small>Bagi dataset 80% latih : 20% uji</small></span>
